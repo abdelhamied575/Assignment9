@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login System</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+
+         <section>
+        <div class="login-box">
+            <form action="home.html" method="get">
+                <h2>Login</h2>
+
+                <div id="input1" class="regester">
+                    <input type="text" name="name" id="name" required placeholder="name">
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" name="email" id="email" required placeholder="email">
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" name="password" id="password" required placeholder="password">
+                </div>
+
+                <div id="input4" class="input-box regester">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" name="Re-password" id="repassword" required placeholder="Re-password">
+                </div>
+
+                <div id="remember" class="remember-forgot">
+                    <label for="">
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button class="btn-1">Login</button>
+                <button class="btn-2" onclick="saveData()">signup</button>
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="#" onclick="regesterPage()"> Register</a></p>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+        <script src="js/mine.js"></script>
+    </body>
+</html>
